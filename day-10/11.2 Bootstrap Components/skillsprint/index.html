@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+    .feature-icon {
+      width: 4rem;
+      height: 4rem;
+      border-radius: .75rem;
+    }
+
+    .icon {
+      width: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-brilliance"
+        viewBox="0 0 16 16">
+        <path
+          d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16M1 8a7 7 0 0 0 7 7 3.5 3.5 0 1 0 0-7 3.5 3.5 0 1 1 0-7 7 7 0 0 0-7 7" />
+      </svg>
+      <a class="navbar-brand" href="#">SkillSprint</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Feature</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimonial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">Level Up Your Skills, One Sprint at a Time.</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Master new tech skills with bite-sized, project-based lessons. Perfect for beginners and pros
+        alike.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Get Started</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Learn More</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="assets/images.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image">
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Why Choose Us?</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img class="icon" src="assets/chat-square-heart.svg" alt="icon">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Community Support</h3>
+        <p>Join a supportive peer group, get mentorship, and collaborate on projects in real time</p>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img class="icon" src="assets/clipboard2-data-fill.svg" alt="icon">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Progress Tracking</h3>
+        <p>Stay motivated. Visual dashboards help you track progress, earn badges, and hit milestones.</p>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img class="icon" src="assets/person-bounding-box.svg" alt="icon">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Iterative Lessons</h3>
+        <p>Learn by doing. Our bite-sized modules combine theory with hands-on projects to build real-world skills.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="px-4 pt-5 my-5 border-bottom">
+    <div class="container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom">Plans</h2>
+      <div class="g-4 row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Free</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Access to limited courses (5 per track)</li>
+                <li>Completion certificates</li>
+                <li>Community forum access</li>
+                <li>Progress tracking</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Pro</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Monthly live Q&A sessions</li>
+                <li>Unlimited course access</li>
+                <li>Progress tracking dashboard</li>
+                <li>Downloadable resources</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Enterprise</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>All Pro Plan features</li>
+                <li>Team performance dashboard</li>
+                <li>Group progress reports</li>
+                <li>Admin management tools</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
