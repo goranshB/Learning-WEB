@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #FF9B45;
+        }
+        .container{
+            text-align: center;
+            font-family:Arial, Helvetica, sans-serif
+
+        }
+        h1{
+            background-color: #D5451B;
+            color: #521C0D;
+            font-size: 50px;
+            margin-bottom: 100px;
+        }
+        img{
+            width: 150px;
+        }
+        .player{
+            text-align: center;
+            font-size: 30px;
+            display: inline-block;
+        }
+        .b{
+            margin-left: 150px;
+        }
+        footer{
+            font-size: medium;
+            text-align: center;
+            color: black;
+            margin-top: 5%;
+        }
+        #result{
+            background-color: antiquewhite;
+            font-size: 70px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Refresh To Play</h1>
+    <h2 id="result">Player 1 wins!</h2>
+    <div class="a player">
+        <h2>Player 1</h2>
+        <img id="dice1" src="./images/dice1.png" alt="dice image">
+    </div>
+    <div class="b player">
+        <h2>Player 2</h2>
+        <img id="dice2" src="./images/dice1.png" alt="dice image">
+    </div>
+    
+    </div>
+    <script src="index.js"></script>
+</body>
+<footer>Dice-Game</footer>
+</html>
